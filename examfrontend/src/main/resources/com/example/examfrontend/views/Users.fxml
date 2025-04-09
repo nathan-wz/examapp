@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examfrontend.controllers.UserController">
+    <children>
+        <VBox fx:id="usersVbox" layoutX="250.0" layoutY="54.4" prefHeight="346.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="54.0" />
+        <Button layoutX="167.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadUsersBtn" text="load users" />
+        <Button layoutX="369.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToAddUserBtn" text="add user" />
+    </children>
+</AnchorPane>

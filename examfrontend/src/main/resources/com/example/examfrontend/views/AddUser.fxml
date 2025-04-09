@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examfrontend.controllers.UserController">
+    <children>
+        <Button layoutX="369.0" layoutY="293.0" mnemonicParsing="false" onAction="#addUserBtn" text="submit"/>
+        <Label layoutX="119.0" layoutY="51.0" text="username"/>
+        <TextField fx:id="usernameTextField" layoutX="115.0" layoutY="75.0"/>
+        <Label layoutX="119.0" layoutY="135.0" text="password"/>
+        <Label layoutX="119.0" layoutY="207.0" text="id number"/>
+        <Label layoutX="367.0" layoutY="51.0" text="First Name"/>
+        <Label layoutX="367.0" layoutY="135.0" text="Last Name"/>
+        <TextField fx:id="passwordTextField" layoutX="115.0" layoutY="163.0"/>
+        <TextField fx:id="idNumberTextField" layoutX="119.0" layoutY="232.0"/>
+        <TextField fx:id="firstNameTextField" layoutX="367.0" layoutY="75.0"/>
+        <TextField fx:id="lastNameTextField" layoutX="367.0" layoutY="163.0"/>
+        <ChoiceBox fx:id="roleChoiceBox" layoutX="367.0" layoutY="232.0" prefWidth="150.0"/>
+        <Label layoutX="368.0" layoutY="207.0" text="Role"/>
+    </children>
+</AnchorPane>

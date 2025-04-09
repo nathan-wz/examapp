@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examfrontend.controllers.ExamCreatorController">
+    <children>
+        <TextField fx:id="updatedTitleTextField" layoutX="91.0" layoutY="66.0" />
+        <Button layoutX="388.0" layoutY="302.0" mnemonicParsing="false" onAction="#updateExamBtn" text="submit" />
+        <Label layoutX="91.0" layoutY="49.0" text="Title" />
+        <TextField fx:id="updatedDateTextField" layoutX="91.0" layoutY="170.0" />
+        <Label layoutX="91.0" layoutY="131.0" text="Date (yyyy-MM-dd)" />
+        <Label layoutX="91.0" layoutY="149.0" text="(including hyphens)" />
+        <TextField fx:id="updatedStartTimeTextField" layoutX="357.0" layoutY="81.0" />
+        <TextField fx:id="updatedEndTimeTextField" layoutX="357.0" layoutY="193.0" />
+        <Label layoutX="357.0" layoutY="46.0" text="Start time (HH:mm)" />
+        <Label layoutX="357.0" layoutY="58.0" text="(including colon in 24 hour format" />
+        <Label layoutX="357.0" layoutY="154.0" text="End time (HH:mm)" />
+        <Label layoutX="357.0" layoutY="172.0" text="(including colons in 24 hour format" />
+        <Label fx:id="formatDate" layoutX="91.0" layoutY="197.0" text="formatDate" />
+        <Label fx:id="formatStartTIme" layoutX="357.0" layoutY="113.0" text="formatStartTIme" />
+        <Label fx:id="formatEndTime" layoutX="357.0" layoutY="220.0" text="formatEndTIme" />
+        <TextField fx:id="updatedDurationTextField" layoutX="91.0" layoutY="276.0" />
+        <Label layoutX="91.0" layoutY="258.0" text="Duration in minutes" />
+    </children>
+</AnchorPane>

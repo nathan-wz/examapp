@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examfrontend.controllers.ExamController">
+   <children>
+      <Button layoutX="260.0" layoutY="36.0" mnemonicParsing="false" onAction="#loadExamsToDoBtn" text="Load exams" />
+      <VBox fx:id="examsToDoVbox" layoutX="280.0" layoutY="80.8" prefHeight="319.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="81.0" />
+   </children>
+</AnchorPane>

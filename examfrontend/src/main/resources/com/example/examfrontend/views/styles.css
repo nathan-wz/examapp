@@ -1,0 +1,58 @@
+/* ---------------- Buttons ---------------- */
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #4A90E2; /* Soft blue */
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.2), 2, 0.0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #357ABD; /* Slightly darker on hover */
+}
+
+/* ---------------- TextFields ---------------- */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 6px 10px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-background-color: #ffffff;
+}
+
+.text-field:focused {
+    -fx-border-color: #4A90E2;
+    -fx-border-width: 1.5px;
+}
+
+/* ---------------- ChoiceBoxes ---------------- */
+.choice-box {
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-padding: 4px 8px;
+}
+
+.choice-box:hover {
+    -fx-border-color: #4A90E2;
+}
+
+.choice-box:focused {
+    -fx-border-color: #4A90E2;
+    -fx-border-width: 1.5px;
+}
+
+/* ---------------- Labels ---------------- */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333; /* Darker text */
+    -fx-label-padding: 4px;
+}
